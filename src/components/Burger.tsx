@@ -11,12 +11,10 @@ export default function Burger({ active, onClick }: Props) {
       <style jsx>
         {`
           .container {
-            position: fixed;
+            position: relative;
             width: 38px;
             height: 38px;
             cursor: pointer;
-            top: 1rem;
-            left: 1.25rem;
             z-index: 2;
             background-color: rgba(255, 255, 255, 0.7);
           }
